@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+header h1 {
+  margin: 0px;
+  margin-bottom: 0px;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  background-color: black;
+  font-size: 50px;
+}
+
+.portrait img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.descriptionContainer {
+  padding: 5% 0; 
+  background-color: black;
+}
+
+.descriptionContainer div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.descriptionContainer p {
+  max-width: 800px;
+  font-size: 19px;
+}
+
+.descriptionContainer img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.colorbox {
+  background-color: #1e1a13;
+  height: 348px;
+  align-items: center;
+}
+.colorbox h2 {
+  padding: 40px 0px 60px 0px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.colorbox i {
+  padding-bottom: 30px;
+}
+.colorbox p {
+  font-size: 24px;
+}
+
+.linea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contenedor{
+  flex: 0 0 20%;
+  max-width: 20%;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.gallery {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+
+.gallery img {
+  height: 300px;
+  margin: 0px 10px 0px 10px;
+}
+
+footer {
+  background-color: #1e1a13;
+}
+
+footer p {
+  font-size: 20px;
+  text-align: center;
+  padding: 50px;
+}
+
